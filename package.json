@@ -1,22 +1,19 @@
 {
   "name": "linkkisalt",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Link Kısaltma Servisi",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Batuhan Demir - https://github.com/batuhan-demir",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.1",
-    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",
     "fs": "^0.0.1-security",
     "lokijs": "^1.5.12",
-    "ms": "^2.1.3",
-    "nodemon": "^2.0.16"
+    "ms": "^2.1.3"
   }
 }
