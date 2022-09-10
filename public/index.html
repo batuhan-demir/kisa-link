@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <link rel="icon" type="image/x-icon" href="./favicon.png">
+  
+  <title>
+    Ücretsiz Link Kısaltma Servisi
+  </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(89603140, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/89603140" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+  
+  <script src="./script.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container center">
+    <center>
+      <div class="col-md-5">
+        
+        <img src="./favicon.png" width="30%">
+        <br><br>
+        
+        <input class="form-control" type="text" width="%60" id="url" placeholder="URL">
+
+        <br>
+
+        <div class="d-flex align-items-center">
+
+          <input type="number" class="form-control" id="sifreSKT" value="1" style="margin-right: 100px;">
+
+          <select class="form-control" id="zamanSecim">
+            <option value="sec">Saniye</option>
+            <option value="min">Dakika</option>
+            <option value="hour">Saat</option>
+            <option value="day" selected="">Gün</option>
+          </select>
+        </div>
+
+        <br>
+
+        <button class="col-md-12 btn btn-primary" style="background-color:darkviolet; font-weight: bold;" id="kisalt">Kısalt!</button>
+
+        <br><br>
+
+        <p id="kisaLink"></p>
+        <button id="btnKopyala" class="btn btn-success" hidden>Kopyala</button>
+      </div>
+    </center>
+  </div>
+
+    <div style="position: relative">
+            <p style="color:white; position: fixed; bottom: 50; width:100%; text-align: center"> Batuhan Demir - 2022
+            </p>
+      <p style="position: fixed; bottom: 0; width:100%; text-align: center">ybk birazcık yardım etti</p>
+        </div>
+</body>
+
+</html>
