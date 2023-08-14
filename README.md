@@ -8,6 +8,6 @@ A project that lets you shorten your links easily.
 * 3- Start server with ```npm start``` or ```node server.js```
 
 
-## Live Demo: http://kisalink.ga
+## Live Demo: https://kisalink.bdemir.net
 
 <img src="./public/favicon.png">  
